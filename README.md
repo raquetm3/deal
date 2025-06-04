@@ -13,6 +13,8 @@ If you accept a deal, or the banker accepts a counter offer, the game ends.
 
 If you make it to the final round, you have the option to keep the value in your original case, or, swap it with the one remaining case. You win the value of the case you decide to go with.
 
+I play tested the game as I created it, and the game works fine. I did not complete any unit tests for the program.
+
 Requirements:
 Python
 
