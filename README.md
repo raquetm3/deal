@@ -3,6 +3,8 @@ The code for the "Deal or No Deal Game I created" I used Python and an OOP frame
 
 The game "deal or no deal" is a game where the player starts by choosing one numbered case out of 26 cases. All cases hold a monetary value. The values range from $0.01 to $1,000,000 
 
+The player inputs the number of the case they want to pick. Input validity was checked using regexes, and all invalid inputs will be caught.
+
 There are several rounds for the game, and in each round you pick different numbers of cases to be eliminated from the game. The goal of the game is to pick a case with the most money, or, make a deal to sell your case with the banker. After each round, the banker calls in to make a deal. You can accept the deal, deny it, or provide a counter offer. 
 
 The equation I found to calculate the value of the deal the banker offers was found online. On the actual game show, there are several factors that could change the amount of money offered by the banker. To keep it more simple, this formula is a decent approximation.
